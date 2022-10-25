@@ -11,7 +11,7 @@ export default {
   async authorize() {
     const data = {
       response_type: 'code',
-      client_id: '',
+      client_id: "YOUR CLIENT ID",
       redirect_uri: 'http://localhost:8080/callback',
       scope: [
         'user-read-playback-state',
@@ -89,7 +89,7 @@ export default {
   },
 
 
-  // DA HTTP REQUESTS!!
+  // DA HTTP REQUESTS!!!!!!!
 
   async getSong() {
 
